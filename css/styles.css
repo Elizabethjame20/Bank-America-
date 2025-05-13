@@ -1,0 +1,6 @@
+body { font-family: 'Helvetica', Arial, sans-serif; }
+.bg-blue-900 { background-color: #004080; }
+.bg-red-700 { background-color: #d32f2f; }
+.bg-red-800 { background-color: #b71c1c; }
+.accordion p { display: none; }
+.accordion p.show { display: block; }
