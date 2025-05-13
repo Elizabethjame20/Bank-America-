@@ -8,9 +8,9 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body class="font-sans text-gray-800">
-    <header class="bg-blue-900 text-white fixed w-full top-0 z-10">
-        <nav class="container mx-auto flex justify-between items-center py-4">
-            <div class="text-2xl font-bold">Bank of America</div>
+    <header class="fixed w-full top-0 z-10">
+        <nav class="container mx-auto flex justify-between items-center">
+            <a href="index.html" class="logo">Bank of America</a>
             <div class="space-x-4">
                 <a href="index.html" class="hover:underline">Home</a>
                 <a href="services.html" class="hover:underline">Services</a>
@@ -19,21 +19,21 @@
         </nav>
     </header>
     <section class="container mx-auto py-12 mt-16">
-        <h1 class="text-3xl font-bold text-blue-900 mb-6">Log In to Online Banking</h1>
+        <h1 class="text-3xl font-bold text-blue-900 mb-6 text-center">Log In to Online Banking</h1>
         <form id="login-form" class="max-w-md mx-auto">
             <div class="mb-4">
-                <label class="block text-sm font-bold mb-2" for="username">Online ID</label>
-                <input type="text" id="username" class="w-full p-2 border rounded" required>
+                <label for="username">Online ID</label>
+                <input type="text" id="username" required>
             </div>
             <div class="mb-4">
-                <label class="block text-sm font-bold mb-2" for="password">Passcode</label>
-                <input type="password" id="password" class="w-full p-2 border rounded" required>
+                <label for="password">Passcode</label>
+                <input type="password" id="password" required>
             </div>
-            <button type="submit" class="bg-red-700 text-white py-2 px-4 rounded hover:bg-red-800">Log In</button>
-            <a href="#" class="block mt-2 text-blue-900 underline">Forgot ID or Passcode?</a>
+            <button type="submit" class="cta-btn w-full">Log In</button>
+            <a href="#" class="block mt-2 text-blue-900 underline text-center">Forgot ID or Passcode?</a>
         </form>
     </section>
-    <footer class="bg-blue-900 text-white text-center py-6">
+    <footer class="text-center">
         <p>© 2025 Bank of America Corporation. All rights reserved.</p>
     </footer>
     <script src="js/scripts.js"></script>
